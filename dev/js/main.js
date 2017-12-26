@@ -35,8 +35,9 @@ if(dev) {
 // }, true);
 
 
-import vue from 'vue';
-let data = {a: 1}
+import Vue from "vue";
+let data = {a: 1};
 let vm = new Vue({
     data: data
 });
+Vue.config.silent = true;
