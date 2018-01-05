@@ -13,6 +13,7 @@
 
 let dev = process.env.NODE_ENV === "development";
 
+
 if(dev) {
     if(module.hot) {
         module.hot.accept(err => {
